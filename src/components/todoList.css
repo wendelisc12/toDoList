@@ -1,0 +1,57 @@
+#lista-box{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lista-container{
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 2px 2px 5px rgba(43, 43, 43, 0.39);
+    width: 450px;
+    height: 550px;
+}
+
+#title h1{
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+
+#title{
+    margin: 20px 0;
+    padding: 0 20px;
+    color: #5D62EB;
+}
+
+#title h2{
+    font-weight: 300;
+}
+
+#insert-atividade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#inserirAtividade{
+    height: 35px;
+    background-color: transparent;
+    font-size: 16px;
+    color: #1d1d1d;
+    outline: none;
+    border: 0;
+    width: 80%;
+    padding: 0 10px;
+    border-bottom: 1px solid #797979;
+}
+
+#add-button{
+    width: 50px;
+    height: 50px;
+    background-color: #FB6B6C;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
